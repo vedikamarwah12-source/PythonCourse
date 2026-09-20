@@ -1,0 +1,13 @@
+def tbill(amount,tip):
+    total=amount+tip
+    return total
+print(tbill(150,20))
+
+def seat(guest):#4
+    '''calculates the seating arrangement of number of guests'''
+    if guest==1 or guest==0:
+        return 1
+    else:
+        return guest*seat(guest-1)
+print(seat.__doc__)
+print(seat(4))

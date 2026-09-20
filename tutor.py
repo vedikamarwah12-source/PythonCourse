@@ -1,0 +1,30 @@
+def change(price, paid):
+    change = paid - price
+    return change
+
+
+ticket = 30
+total = 0
+coins = 0
+mes = 'add 3 coins for rs.10 each\nadd 6 coins for rs.5 each'
+print(mes.title())
+while True:
+    ask = int(input('insert coins: '))
+    if ask == 10:
+        total += ask
+        coins += 1
+    elif ask == 5:
+        total += ask
+        coins += 1
+    else:
+        print('invalid coin')
+    if coins == 3:
+        break
+
+if total > ticket:
+    change(ticket,total)
+else:
+    print('you have paid: ',total)
+
+
+

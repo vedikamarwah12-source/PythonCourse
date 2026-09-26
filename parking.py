@@ -25,5 +25,3 @@ if total > ticket:
     change(ticket,total)
 else:
     print('you have paid: ',total)
-    
-        

@@ -13,7 +13,7 @@ print(random.uniform(1,10))
 color=['cyan','magenta','sunny yellow','sky blue']
 print(random.choice(color))
 
-#random choices
+#random choices more than 1 color
 print(random.choices(color,k=2))
 
 import math

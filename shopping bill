@@ -1,0 +1,10 @@
+valid=False
+while not valid:
+    try:
+        bill_amount = float(input("Enter the total bill amount: "))
+        if bill_amount < 0:
+            print("Bill amount cannot be negative. Please try again.")
+        else:
+            valid = True
+        discountper= float(input("Enter the discount percentage (0-100): "))
+        people=int(input("Enter the number of people to split the bill: "))

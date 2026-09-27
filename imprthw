@@ -1,0 +1,27 @@
+import random
+import math
+
+print(random.randint(1,10))
+activity='play a game\nsolve a crossword\nsolve a sudoku\nlisten to music\nwatch a movie'
+fun=random.choice(activity.split('\n'))
+print (fun)
+
+#second project
+num=random.randint(1,5)
+while True:
+    ask=int(input('enter a number between 1 and 5: '))
+    if ask==num:
+        print('thats correct')
+        break
+    else:
+        print('sorry try again','the number was: ',num)
+
+#third project
+ent=int(input('enter a decimal number here: '))
+print(math.ceil(ent))
+print(math.floor(ent))
+print(math,copysign(ent,-8))
+print(math.fabs(ent))
+hcf=int(input('enter a number here: '))
+hc=int(input('enter a number here: '))
+print(math.gcd(hfc,hc))

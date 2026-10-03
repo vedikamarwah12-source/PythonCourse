@@ -1,0 +1,17 @@
+import keyword
+name=input('enter your name: ')
+practice=30
+skill=input('enter one skill you want to get better at: ')
+mth=str(input('enter the month you want to comeplete it by: '))
+print('MY PERSONAL GOAL PLAN')
+print('Name: ',name)
+print('Skill: ',skill)
+print('Practice Days: ',practice)
+print('Completion Month: ',mth)
+print('Status: In Progress')
+print('practice daily!')
+print(f'{name} plans to work on {skill} for {practice} days and aims to complete it by {mth}')
+print(keyword.kwlist)
+
+
+

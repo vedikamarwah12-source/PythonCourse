@@ -1,0 +1,9 @@
+name=input('enter you name: ')
+clname=input('enter class name: ')
+num=int(input('enter you badge number: '))
+active=input('are you active?true/false: '.capitalize())
+print('STUDENT BADGE')
+print(f'name: {name} \n class name: {clname} \n badge number: {num} \n active: {active}')
+
+
+

@@ -1,0 +1,30 @@
+f1=10
+f2=50
+f3=90
+f4=120
+f5=150
+
+total=f1+f2+f3+f4+f5
+average=total/5
+print('total harvest: ',total)
+print('average harvest: ',average)
+
+#price per kg is 15rs.
+print('total earning: ',total*15)
+
+print('total bags: ',total//25)
+print('leftover: ',total%25)
+
+#compare to last year harvest
+fy2025=600
+if total>600:
+    print('better harvest')
+elif total==600: 
+    print('equal harvest')
+else:
+    print('degraded harvest')
+
+total+=30
+print('new total: ',total)
+
+print('final bag count: ',total//25)

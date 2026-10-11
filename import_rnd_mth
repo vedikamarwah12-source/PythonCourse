@@ -3,7 +3,7 @@ import random
 # random number between 0 and 1
 print(random.random())
 
-#random number between a range
+#random number between a range incusive of both endpoints
 print(random.randint(2,8))
 
 #random number between range as float

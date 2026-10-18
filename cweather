@@ -1,0 +1,31 @@
+temp=(int(input('enter the temperature: ')))
+if temp<18:
+    print('jacket')
+else:
+    print('wear a t-shirt')
+
+rain=input('is it raining?: ')
+if rain=='yes':
+    print('bring an umbrella!')
+
+wind=int(input('enter the wind speed: '))
+if wind>30:
+    print('wear a windbreaker')
+else:
+    print('its calm, dont weae windbreaker')
+
+puddle=input('are there any puddles?: ')
+if puddle=='yes':
+    print('wear boots the ground is wet')
+else:
+    print('no boots needed you can wear sneakers')
+
+print('WEATHER CHECK COMPLETED')
+print(f'the temperature is {temp}\n is it raining?{rain} \nis it windy? {wind} \n are there any puddles? {puddle}')
+
+
+
+
+
+
+

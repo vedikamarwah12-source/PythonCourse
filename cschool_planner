@@ -1,0 +1,31 @@
+print('SMART SCHOOL DAY PLANNER')
+day=input('what day is it?: ').strip().lower()
+weather=input('how is the weather today?: ').strip().lower()
+work=input('is you homework done?: ').strip().lower()
+
+print('you plan for today')
+if day in ('saturday','sunday'):
+    print('enoy the weekend')
+elif day in 'monday':
+    print('first day of the week place you daily planner')
+elif day in 'friday':
+    print('return library books')
+elif day in ('tuesday','wednesday','thursday'):
+    print('regular school days')
+else:
+    print('unvalid day entered')
+
+print('Part 2')
+
+if weather=='sunny' and work=='yes':
+    print('go out and play')
+elif weather =='rainy' or weather=='cloudy':
+    print('take an umbrella')
+elif not work=='yes':
+    print('do your homework before goign out')
+
+print('plan  complete!')
+
+
+
+

@@ -30,28 +30,4 @@ for i in nums:
     sum+=i
 print(sum) #sum
 
-#average speed
 
-a=30
-b=25
-c=20
-avg=(a+b+c)/3
-print(avg)
-
-color = 'crimson'
-
-'''age = 47
-
-friendAge = 50
-
-temp = 12.5
-
-place = 'Ladakh'
-
-print(f"My favourite color is {color}")
-
-print("My favourite color is %s" %(color))
-
-print("My age is %d and my friend's age is %d" %(age, friendAge))
-
-print("Today's temp in %s is %f" %(place, temp))'''

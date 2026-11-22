@@ -1,0 +1,23 @@
+print('WELCOME TO THE VEHICLE STORE!')
+
+print('pick your vehicle for rent:\n1.car\n2.bike')
+v=int(input('enter the vehicle number you chose: '))
+
+if v=='1':
+    print('car types:\n1.SUV\n2.sedan\n3.hatchback')
+    ct=int(input('enter the number for car type: '))
+    if ct=='1':
+        print("SUVs are perfect for off road tracks and rocky terrains")
+    elif ct=='2':
+        print('sedans are sleek and perfect for a formal look')
+    else:
+        print('hatchbacks are optimum for dailt commute and traffic')
+else:
+    print('bike types:\n1.cruiser\n2.off-road\n3.scooter/moped')
+    bt=int(input('enter the number for bike type: '))       
+    if bt=='1':
+        print('cruiser is perfect for long distance journeys and highways')
+    elif bt=='2':
+        print('off roaders are optimum for rocky and abraisive tracks')
+    else:
+        print('scooters are best for daily commute and work')
